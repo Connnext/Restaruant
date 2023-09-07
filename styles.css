@@ -79,8 +79,7 @@ body {
   text-align: center;
   position: absolute;
   left: 0;
-  margin-top: 160px;
-  margin-left: 160px;
+  margin-top: 222px;
   margin-bottom: 12px;
 }
 .header-subtitle {
@@ -94,8 +93,8 @@ body {
   height: 2px;
   width: 61px;
   background-color: #ffffff;
-  top: 161px;
-  left: 84px;
+  top: 162px;
+  left: 87px;
 }
 .header-subtitle::after {
   position: absolute;
@@ -103,8 +102,8 @@ body {
   height: 2px;
   width: 61px;
   background-color: #ffffff;
-  top: 161px;
-  left: 334px;
+  top: 162px;
+  left: 332px;
 }
 
 .header-button {
@@ -122,4 +121,28 @@ body {
 }
 .header-suptitle {
   font-size: 80px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+}
+.card-description {
+  display: flex;
+  text-align: center;
+}
+.card {
+  box-shadow: 10px 10px 40px 20px #0000001a;
+  width: 349px;
+  margin-right: 31px;
+  background-color: #ffffff;
+  margin-top: -50px;
+}
+.card-holder {
+  display: flex;
+  justify-content: center;
 }
