@@ -126,14 +126,23 @@ body {
 .card-image {
   display: flex;
   justify-content: center;
+  padding-top: 31px;
 }
 .card-title {
-  display: flex;
+  text-align: center;
   justify-content: center;
+  margin-bottom: 20px;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 26px;
 }
 .card-description {
-  display: flex;
   text-align: center;
+  margin-bottom: 54px;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #656363;
 }
 .card {
   box-shadow: 10px 10px 40px 20px #0000001a;
@@ -141,8 +150,54 @@ body {
   margin-right: 31px;
   background-color: #ffffff;
   margin-top: -50px;
+  padding: 0px 10px;
 }
 .card-holder {
   display: flex;
   justify-content: center;
+}
+.card-title span {
+  color: #bc9060;
+}
+.history-title {
+  font-size: 54px;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  width: 444px;
+  text-align: center;
+  margin-bottom: 21px;
+}
+.history-title span {
+  color: #d67e34;
+}
+.history-discription {
+  font-size: 16px;
+  color: #656363;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  width: 444px;
+  text-align: center;
+}
+.history {
+  background-color: #ffffff;
+  margin-top: 166px;
+}
+.history-number {
+  display: flex;
+  width: 444px;
+  justify-content: center;
+}
+.history-item {
+  margin-right: 60px;
+  text-align: center;
+  font-size: 40px;
+  color: #bc9060;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.history-item span {
+  display: block;
+  color: black;
+  font-size: 20px;
+  width: 400;
 }
