@@ -264,3 +264,30 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.dishes-title {
+  font-size: 54px;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 132px;
+  margin-bottom: 139px;
+}
+.blyda {
+  color: #d67e34;
+}
+.burgers {
+  display: flex;
+  justify-content: center;
+}
+.burger-item {
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 29px;
+  align-items: center;
+}
+.burger-text {
+  margin-left: 30px;
+  font-size: 26px;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+}
