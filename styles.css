@@ -60,10 +60,10 @@ body {
 }
 .button {
   background-color: #ff7400;
-  color: #fff;
   text-decoration: none;
   padding: 14px 18px;
   font-weight: 700;
+  color: #fff;
   transition: background-color 0.2s linear;
 }
 .button:hover {
@@ -290,4 +290,46 @@ body {
   font-size: 26px;
   font-family: "Tinos", serif;
   font-weight: 400;
+}
+.menu {
+  background-image: url(Menu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.menu-title {
+  font-size: 54px;
+  font-weight: 400;
+  font-family: "Tinos", serif;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 138px;
+}
+.menu-item {
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 29px;
+}
+.menu-img {
+  padding-bottom: 22px;
+}
+.menu-text {
+  font-size: 26px;
+  font-weight: 400;
+  font-family: "Tinos", serif;
+  padding-bottom: 17px;
+}
+.menu-subtext {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 20px;
+}
+.menu-btn {
+  background-color: #d67e34;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 67px;
 }
