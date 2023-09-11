@@ -179,6 +179,7 @@ body {
   width: 444px;
   text-align: center;
 }
+
 .history {
   background-color: #ffffff;
   margin-top: 166px;
@@ -291,6 +292,7 @@ body {
   font-family: "Tinos", serif;
   font-weight: 400;
 }
+
 .menu {
   background-image: url(Menu.jpg);
   background-repeat: no-repeat;
@@ -363,4 +365,40 @@ body {
 .menu-items {
   display: flex;
   justify-content: center;
+}
+
+.Comment {
+  background-color: #e5e5e5;
+}
+.comment-items {
+  text-align: center;
+}
+.comment-text {
+  color: black;
+  padding-top: 104px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  width: 920px;
+  margin: 0 auto; /* Add this property to center the element itself */
+  margin-bottom: 27px;
+}
+.comment-image {
+  margin-bottom: 16px;
+}
+.comment-atribut {
+  margin-bottom: 9px;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.comment-name {
+  padding-bottom: 139px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.comment-img {
+  border-radius: 50px;
 }
