@@ -1,3 +1,5 @@
+/* HEADER */
+
 .kunteynir {
   margin: 0px 166px;
 }
@@ -124,6 +126,8 @@ body {
   font-size: 80px;
 }
 
+/* CARD */
+
 .card-image {
   display: flex;
   justify-content: center;
@@ -160,6 +164,9 @@ body {
 .card-title span {
   color: #bc9060;
 }
+
+/* HISTORY */
+
 .history-title {
   font-size: 54px;
   font-family: "Tinos", serif;
@@ -230,6 +237,8 @@ body {
   left: -360px;
 }
 
+/* BLACK BLOCK */
+
 .black-block {
   background-image: url(bg.jpg);
   padding: 80px 0px;
@@ -265,6 +274,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+/* DISHES */
+
 .dishes-title {
   font-size: 54px;
   font-family: "Tinos", serif;
@@ -292,6 +304,8 @@ body {
   font-family: "Tinos", serif;
   font-weight: 400;
 }
+
+/* MENU */
 
 .menu {
   background-image: url(Menu.jpg);
@@ -367,6 +381,8 @@ body {
   justify-content: center;
 }
 
+/* COMMENT */
+
 .Comment {
   background-color: #e5e5e5;
 }
@@ -401,4 +417,54 @@ body {
 }
 .comment-img {
   border-radius: 50px;
+}
+/* GALLERY */
+
+.gallery-content {
+  display: flex;
+  justify-content: center;
+}
+.gallery-title {
+  font-size: 54px;
+  font-weight: 400;
+  font-family: "Tinos", serif;
+  text-align: center;
+  margin-top: 101px;
+  margin-bottom: 60px;
+}
+.gallery-title span {
+  color: #d67e34;
+}
+.left-gallery {
+  margin-right: 30px;
+}
+.under,
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+/* STAFF */
+
+.staff-title {
+  font-size: 54px;
+  font-weight: 400;
+  font-family: "Tinos", serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 107px;
+}
+.staff-title span {
+  color: #d67e34;
+}
+.staff-image {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.footer {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px 0px;
 }
