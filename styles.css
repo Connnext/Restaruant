@@ -469,3 +469,22 @@ body {
   padding: 20px 0px;
   text-align: center;
 }
+
+@media (max-width: 1500px) {
+  .gallery-content {
+    display: block;
+  }
+  .image-gal,
+  .top,
+  .under {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image-gal {
+    margin-bottom: 20px;
+  }
+  .left-gallery {
+    margin-right: 0;
+  }
+}
