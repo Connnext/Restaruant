@@ -487,6 +487,15 @@ body {
   .left-gallery {
     margin-right: 0;
   }
+  .staff-image {
+    display: block;
+  }
+  .staff-image img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 1300px) {
   .menu-items {
@@ -503,15 +512,6 @@ body {
   .header-subtitle::after {
     content: none;
   }
-  .staff-image {
-    display: block;
-  }
-  .staff-image img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 30px;
-  }
   .block-holder {
     display: block;
   }
@@ -526,4 +526,21 @@ body {
   .right-button {
     text-align: center;
   }
+  .history-images {
+    display: none;
+  }
+  .history-discription,
+  .history-title,
+  .history-number {
+    width: auto;
+  }
+}
+@media (max-width: 1188px) {
+  .burger-menu {
+    display: block;
+  }
+  .nav,
+  .card,
+  .phone,
+  .btn;
 }
