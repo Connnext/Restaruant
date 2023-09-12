@@ -488,3 +488,42 @@ body {
     margin-right: 0;
   }
 }
+@media (max-width: 1300px) {
+  .menu-items {
+    display: block;
+  }
+  .menu-item {
+    margin: 20px auto;
+    width: 600px;
+  }
+  .header-title {
+    position: static;
+  }
+  .header-subtitle::before,
+  .header-subtitle::after {
+    content: none;
+  }
+  .staff-image {
+    display: block;
+  }
+  .staff-image img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+  .block-holder {
+    display: block;
+  }
+  .left-title {
+    text-align: center;
+  }
+  .left-text {
+    text-align: center;
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .right-button {
+    text-align: center;
+  }
+}
