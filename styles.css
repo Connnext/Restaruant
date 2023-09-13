@@ -470,6 +470,10 @@ body {
   text-align: center;
 }
 
+.burger-menu {
+  display: none;
+}
+
 @media (max-width: 1500px) {
   .gallery-content {
     display: block;
@@ -495,6 +499,14 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 30px;
+  }
+  .history-images {
+    display: none;
+  }
+  .history-discription,
+  .history-title,
+  .history-number {
+    width: auto;
   }
 }
 @media (max-width: 1300px) {
@@ -526,13 +538,15 @@ body {
   .right-button {
     text-align: center;
   }
-  .history-images {
-    display: none;
+
+  .card-holder {
+    display: block;
   }
-  .history-discription,
-  .history-title,
-  .history-number {
+  .card {
     width: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-right: auto;
   }
 }
 @media (max-width: 1188px) {
@@ -540,7 +554,33 @@ body {
     display: block;
   }
   .nav,
-  .card,
+  .cart,
   .phone,
-  .btn;
+  .btn {
+    display: none;
+  }
+  .header-line {
+    justify-content: space-between;
+  }
+  .pizza {
+    display: none;
+  }
+  .comment-text {
+    width: auto;
+  }
+}
+@media (max-width: 780px) {
+  .menu-item {
+    width: auto;
+  }
+  .hide {
+    display: none;
+  }
+  .history-number {
+    display: block;
+  }
+  .kunteynir {
+    margin: auto 40px;
+  }
+  .number-u;
 }
