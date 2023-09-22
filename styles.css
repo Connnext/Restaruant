@@ -474,6 +474,22 @@ body {
   display: none;
 }
 
+.block {
+  display: block;
+}
+.buregrs-slide {
+  position: absolute;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.disp {
+  display: none;
+}
 @media (max-width: 1500px) {
   .gallery-content {
     display: block;
@@ -582,5 +598,4 @@ body {
   .kunteynir {
     margin: auto 40px;
   }
-  .number-u;
 }
